@@ -2,6 +2,10 @@ import React, { useState } from "react"
 import { SectionObserver, ContentFadeIn } from "./Transitions"
 import { Mail, MapPin, Phone, Send } from "lucide-react"
 
+// Rounding roof in Js
+
+const setAvailabilitiy = String(Math.round(Math.random() * 20) + 70)
+
 const Contact: React.FC = () => {
   const [formState, setFormState] = useState({
     name: "",
@@ -240,11 +244,11 @@ const Contact: React.FC = () => {
                   <div className="w-full bg-gray-200 h-2 rounded-full overflow-hidden">
                     <div
                       className="bg-gray-800 h-full rounded-full"
-                      style={{ width: "87%" }}
+                      style={{ width: `${setAvailabilitiy}%` }}
                     ></div>
                   </div>
                   <div className="flex justify-between text-sm mt-2">
-                    <span>87% Available</span>
+                    <span>{setAvailabilitiy}% Available</span>
                     <span>Open to offers</span>
                   </div>
                 </div>
