@@ -192,7 +192,7 @@ const Projects: React.FC = () => {
         "Online eBook Store demo rendering website from SSR. Buy eBooks Online",
       tags: ["NodeJS", "Express", "Socket.IO"],
       image:
-        "https://private-user-images.githubusercontent.com/107711625/416034097-7f11a9d1-d572-474a-891a-970775ff289b.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDE3OTQyMDUsIm5iZiI6MTc0MTc5MzkwNSwicGF0aCI6Ii8xMDc3MTE2MjUvNDE2MDM0MDk3LTdmMTFhOWQxLWQ1NzItNDc0YS04OTFhLTk3MDc3NWZmMjg5Yi5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUwMzEyJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MDMxMlQxNTM4MjVaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1mMzZlNzk2MzljMzczOGJmYzQwN2JmNmFkOTJhODBlNDZjNWY0OGNjOWY4MjRhNWI1NTI5MGIxNDU1YTc5ZDFkJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.CMsmy6fKbOLX3sw9n8OdqE9mkxJYfOMqJL86dJM7Hyw",
+        "https://i.ibb.co.com/cKQ9m6yv/416034097-7f11a9d1-d572-474a-891a-970775ff289b.png",
       link: "https://boighor-uvkz.onrender.com/",
     },
   ]
