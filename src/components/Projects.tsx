@@ -11,65 +11,6 @@ interface Project {
   link: string
 }
 
-/* const ProjectCard: React.FC<{ project: Project }> = ({ project }) => {
-  const [isHovered, setIsHovered] = useState(false)
-
-  return (
-    <div
-      className="bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-all duration-300 scale-hover"
-      onMouseEnter={() => setIsHovered(true)}
-      onMouseLeave={() => setIsHovered(false)}
-    >
-      <div className="aspect-video relative overflow-hidden bg-gray-100">
-        <div
-          className={`absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent opacity-0 transition-opacity duration-300 z-10 flex items-end p-6 ${
-            isHovered ? "opacity-100" : ""
-          }`}
-        >
-          <a
-            href={project.link}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-white flex items-center gap-2 hover:gap-3 transition-all duration-300"
-          >
-            <span>View project</span>
-            <ArrowRight className="w-4 h-4" />
-          </a>
-        </div>
-        <div className="absolute inset-0 flex items-center justify-center text-gray-300">
-          Hello
-        </div>
-      </div>
-
-      <div className="p-6">
-        <div className="flex flex-wrap gap-2 mb-3">
-          {project.tags.map((tag, index) => (
-            <span
-              key={index}
-              className="bg-gray-100 text-gray-600 px-2 py-1 text-xs rounded-md"
-            >
-              {tag}
-            </span>
-          ))}
-        </div>
-
-        <h3 className="text-xl font-semibold mb-2">{project.title}</h3>
-        <p className="text-gray-600 mb-4">{project.description}</p>
-
-        <a
-          href={project.link}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="inline-flex items-center text-gray-900 font-medium hover:text-gray-700 transition-colors"
-        >
-          <span>Explore</span>
-          <ExternalLink className="ml-2 w-4 h-4" />
-        </a>
-      </div>
-    </div>
-  )
-} */
-
 const ProjectCard: React.FC<{ project: Project }> = ({ project }) => {
   const [isHovered, setIsHovered] = useState(false)
 
@@ -147,7 +88,7 @@ const Projects: React.FC = () => {
         "A desktop application for managing educational institute's data more efficiently!",
       tags: ["React", "Node.js", "Electron", "Desktop"],
       image:
-        "https://private-user-images.githubusercontent.com/107711625/416034440-540df40a-b131-475c-858e-bd2b929d49fb.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDE3OTI3MTQsIm5iZiI6MTc0MTc5MjQxNCwicGF0aCI6Ii8xMDc3MTE2MjUvNDE2MDM0NDQwLTU0MGRmNDBhLWIxMzEtNDc1Yy04NThlLWJkMmI5MjlkNDlmYi5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUwMzEyJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MDMxMlQxNTEzMzRaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1jMmE2Zjg2NWNkNThmOTAzZDUxYzZiNDE1OGUwNzBiNzEzYmFlNzY4NzVkMDhlZjk0ZWU5ZmNhNzZhZGI0NGU1JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.XhKu9ZfByQhAVlz9K5n2vl_kAHR6YeD3TD_X72Rv62Q",
+        "https://i.ibb.co.com/6JJqcmRL/416034440-540df40a-b131-475c-858e-bd2b929d49fb.png",
       link: "https://github.com/ettisafxrup/weexschool",
     },
     {
