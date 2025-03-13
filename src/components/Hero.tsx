@@ -64,7 +64,7 @@ const Hero: React.FC = () => {
             >
               <span className="block mb-2">Ettisaf Rup.</span>
               <span className="block mb-1 sm:text-2xl text-sm tracking-wide">
-                Computer Afficiando x Machine Enthusiast
+                Computer Aficionado x Machine Enthusiast
               </span>
             </h1>
 
