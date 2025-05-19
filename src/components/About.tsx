@@ -38,11 +38,13 @@ const About: React.FC = () => {
 
               <div className="space-y-3 text-gray-600">
                 <p className="font-bold">
-                  Undergraduate in _______ at Khulna University of Engineering
+                  Undergraduate in Computer Science and Engineering at Khulna University of Engineering
                   and Technology.
                 </p>
 
                 <p>
+                  AI/ML
+                                    <span className="text-black font-bold">| </span>
                   Software Engineering{" "}
                   <span className="text-black font-bold">| </span>
                   DSA <span className="text-black font-bold">| </span>
@@ -51,7 +53,7 @@ const About: React.FC = () => {
                   Critical Thinking
                 </p>
 
-                <p>Books, Music, Writing. I'm an author, I write.</p>
+                <p>Books, Music, Writing.</p>
               </div>
 
               <div className="mt-10 flex flex-wrap gap-4">
