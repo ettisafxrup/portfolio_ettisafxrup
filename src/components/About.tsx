@@ -13,7 +13,7 @@ const About: React.FC = () => {
                 <div className="absolute inset-0 flex items-center justify-center">
                   <div className="w-[85%] h-[85%] bg-gradient-to-tr from-gray-50 to-white rounded-xl shadow-lg overflow-hidden flex items-center justify-center">
                     <img
-                      src="https://ibb.co/QvKFKNYH"
+                      src="https://i.ibb.co/fdxYxprN/107711625.jpg"
                       alt="Ettisaf Rup, standing with a bag, smiling to the camera"
                     />
                   </div>
